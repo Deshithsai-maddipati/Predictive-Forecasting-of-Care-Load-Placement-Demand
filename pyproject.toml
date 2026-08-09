@@ -5,6 +5,11 @@ build-backend = "hatchling.build"
 [tool.hatch.build.targets.wheel]
 packages = ["src/uac_forecasting"]
 
+[tool.poetry]
+# Streamlit Community Cloud uses Poetry only for dependency installation.
+# The Streamlit app adds the local src/ directory to Python's import path.
+package-mode = false
+
 [project]
 name = "uac-care-forecasting"
 version = "0.1.0"
