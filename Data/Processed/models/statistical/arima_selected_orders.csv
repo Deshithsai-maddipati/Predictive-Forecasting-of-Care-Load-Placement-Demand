@@ -1,0 +1,4 @@
+target,selection_end_date,arima_order,aic
+hhs_care,2024-08-04,"(0, 1, 1)",4974.593169606401
+hhs_discharges,2024-08-04,"(0, 1, 2)",4161.020254235725
+net_hhs_flow,2024-08-04,"(0, 1, 2)",4319.338135606656

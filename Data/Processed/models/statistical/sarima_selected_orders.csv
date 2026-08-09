@@ -1,0 +1,4 @@
+target,selection_end_date,arima_order,seasonal_order,seasonal_period_unit,aic
+hhs_care,2024-08-04,"(0, 1, 1)","(1, 0, 1, 7)",reported observations,4838.815980400102
+hhs_discharges,2024-08-04,"(0, 1, 2)","(1, 0, 1, 7)",reported observations,3994.1658061166827
+net_hhs_flow,2024-08-04,"(0, 1, 2)","(1, 0, 1, 7)",reported observations,4183.4368658593985

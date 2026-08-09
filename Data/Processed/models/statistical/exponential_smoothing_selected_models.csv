@@ -1,0 +1,4 @@
+target,selection_end_date,smoothing_model,aic
+hhs_care,2024-08-04,holt_damped,3903.178998348001
+hhs_discharges,2024-08-04,simple,3159.58239654013
+net_hhs_flow,2024-08-04,simple,3284.7174776733445

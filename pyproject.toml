@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "uac-care-forecasting"
+version = "0.1.0"
+description = "Short-term forecasting and capacity-risk analysis for HHS UAC care."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "plotly>=5.24",
+    "scikit-learn>=1.5",
+    "statsmodels>=0.14",
+    "streamlit>=1.39",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
