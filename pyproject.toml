@@ -5,17 +5,13 @@ build-backend = "hatchling.build"
 [tool.hatch.build.targets.wheel]
 packages = ["src/uac_forecasting"]
 
-[tool.poetry]
-# Streamlit Community Cloud installs with Poetry.  The distribution name uses
-# hyphens, while the importable package is the src-layout package below.
-packages = [{ include = "uac_forecasting", from = "src" }]
-
 [project]
 name = "uac-care-forecasting"
 version = "0.1.0"
 description = "Short-term forecasting and capacity-risk analysis for HHS UAC care."
 readme = "README.md"
 requires-python = ">=3.11"
+
 dependencies = [
     "numpy>=1.26",
     "pandas>=2.2",
